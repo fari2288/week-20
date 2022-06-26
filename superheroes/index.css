@@ -1,0 +1,13 @@
+#container {
+    display: flex;
+    flex-direction: column;
+
+}
+.hero{
+    margin: 20px;
+    background-color: rgb(243, 185, 195);
+    border-radius: 5px;
+    text-align: center;
+    font-size: larger;
+    color: rgb(42, 38, 38);
+}
