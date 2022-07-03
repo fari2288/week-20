@@ -1,14 +1,15 @@
 .wrapper {
     display: flex;
     flex-direction: column;
-    
+
     justify-items: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
     background-color: rgb(145, 212, 212);
 }
-.wrapper__nasa{
+
+.wrapper__nasa {
     text-align: center;
     font-size: larger;
 }

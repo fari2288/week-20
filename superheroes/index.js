@@ -51,8 +51,7 @@ function render() {
     console.log(superheroes);
     let content = '';
     for (let superhero of superheroes) {
-        content += `<div class='hero'><img src='${superhero.image}'></img><div>${superhero.name}</div><div>${superhero.job}</div><div>${superhero.alter_ego}</div><div>${superhero.superpower}</div><div>${superhero.information}</div>0<input type="range" min='0' max='10' step='1' id='rating'>1${superhero.rating}</div>
-    `
+        content += `<div class='hero'><img src='${superhero.image}'></img><div>${superhero.name}</div><div>${superhero.job}</div><div>${superhero.alter_ego}</div><div>${superhero.superpower}</div><div>${superhero.information}</div>0<input type="range" min='0' max='10' step='1' id='rating'>1${superhero.rating}</div>`
     }
     document.querySelector('#container').innerHTML = content;
 
